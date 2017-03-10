@@ -1,0 +1,18 @@
+spring:
+  profiles:
+    active: dev
+---
+spring:
+  profiles: dev
+shell:
+  dir: /home/dan/chendan/shell/
+token: GitLabToken
+
+---
+spring:
+  profiles: prod
+shell:
+  dir: /home/master/chendan/shell/
+token: GitLabToken
+server:
+  port: 62334
